@@ -80,7 +80,10 @@ print("Hello " + username + " my name is Scott Schretzenmaier and and you are ab
                                 "number and win or roll a 5 and lose. Good luck.")
 
 #Promt the user to see if they want to play the game or automate the game
-automate = int(input("Enter 1 to play the game or 2 to automate the game."))
+automate = (input("Enter 1 to play the game or 2 to automate the game."))
+while(automate != 1 and automate != 2 and automate != "1" and automate != "2"):
+    automate = input("Please enter a 1 or a 2")
+automate = int(automate)
 
 if(automate == 1):
     #variable that allows user to replay
