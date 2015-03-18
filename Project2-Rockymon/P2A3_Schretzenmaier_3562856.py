@@ -2,7 +2,7 @@
 Project 2: Rockymon
 Author: Scott Schretzenmaier
 Date Created: 2/25/15
-Date Edited: 2/25/15
+Date Edited: 2/26/15
 
 Program Description:
 1. Ask the user for a name
